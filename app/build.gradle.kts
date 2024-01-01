@@ -13,7 +13,7 @@ dependencies {
     implementation("com.annimon:stream:1.2.2")
     implementation("com.android.volley:volley:1.2.1")
     implementation("commons-io:commons-io:2.11.0")
-
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.10"))
     implementation("com.journeyapps:zxing-android-embedded:4.3.0") {
         isTransitive = false
     }
